@@ -20,9 +20,9 @@ export default function User() {
     }
 
     return (
-        <div class="usuario">
+        <div className="usuario">
             <img onClick={changeImage} src={image}/>
-            <div class="texto">
+            <div className="texto">
                 <strong>{nick}</strong>
                 <span>
                     {name}
